@@ -49,11 +49,10 @@ $_SESSION['username'] = $data['username'];
 
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Dashboard</title>
+        <title>Dashboard</title>
 </head>
 <body>
     <h2>Welcome, <?= htmlspecialchars($_SESSION['username']) ?>!</h2>
